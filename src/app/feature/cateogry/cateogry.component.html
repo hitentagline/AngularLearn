@@ -1,0 +1,7 @@
+<p>cateogry works!</p>
+
+
+<div *ngFor="let category of cats">
+    <p>Category name: {{ category.category_name}} </p>
+    <button class="btn btn-success" (click)="save(category)">Save</button>
+</div>
